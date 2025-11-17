@@ -1,0 +1,259 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+.mainContent .OurAffiliations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 570px;
+  height: 190px;
+  margin-bottom: 113px;
+}
+.mainContent .OurAffiliations h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #043caa;
+  text-align: center;
+  position: relative;
+}
+.mainContent .OurAffiliations h1::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 5px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #043caa 55%, #1bc768 45%);
+}
+.mainContent .KeyBenefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+.mainContent .KeyBenefits h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #043caa;
+  text-align: center;
+  position: relative;
+}
+.mainContent .KeyBenefits h1::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 5px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #043caa 55%, #1bc768 45%);
+}
+.mainContent .KeyBenefits .benefitCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+.mainContent .KeyBenefits .benefitCard div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mainContent .KeyBenefits .benefitCard div h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #043caa;
+  margin-bottom: 40px;
+}
+.mainContent .KeyBenefits .benefitCard div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0%;
+}
+.mainContent .KeyBenefits .benefitCard div p img {
+  width: 12px;
+  height: 12px;
+}
+.mainContent .KeyBenefits .benefitCard div button {
+  margin-top: 30px;
+  background: transparent;
+  border: #1bc768 2px solid;
+  color: #1bc768;
+  transition: all 0.8s ease;
+}
+.mainContent .KeyBenefits .benefitCard div button:hover {
+  background-color: #1bc768;
+  color: white;
+}
+.mainContent .KeyBenefits .benefitCard div button i {
+  margin-left: 10px;
+  font-size: 24px;
+}
+.mainContent .WhatOurClientsSay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 190px;
+  width: 1220px;
+  margin-left: -550px;
+  margin-bottom: 140px;
+}
+.mainContent .WhatOurClientsSay h1 {
+  text-wrap: nowrap;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: #043caa;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.mainContent .WhatOurClientsSay h1::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 5px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #043caa 55%, #1bc768 45%);
+}
+.mainContent .WhatOurClientsSay p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #7a7a7a;
+}
+.mainContent .WhatOurClientsSay .authorName {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #043caa;
+  margin-top: 20px;
+}
+.mainContent .WhatOurClientsSay .spans-radio {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.mainContent .WhatOurClientsSay .spans-radio span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+.mainContent .WhatOurClientsSay .spans-radio span:hover {
+  background-color: #043caa;
+}
+
+@media (max-width: 958px) {
+  .mainContent {
+    padding: 20px 0;
+  }
+  .mainContent .OurAffiliations {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+  .mainContent .OurAffiliations h1 {
+    font-size: 26px;
+  }
+  .mainContent .OurAffiliations img {
+    width: 100%;
+    max-width: 350px;
+  }
+  .mainContent .KeyBenefits {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .mainContent .KeyBenefits h1 {
+    font-size: 26px;
+  }
+  .mainContent .KeyBenefits .benefitCard {
+    flex-direction: column;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+  .mainContent .KeyBenefits .benefitCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  .mainContent .KeyBenefits .benefitCard img {
+    width: 100%;
+    max-width: 280px;
+  }
+  .mainContent .KeyBenefits .benefitCard div h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .mainContent .KeyBenefits .benefitCard div p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .mainContent .KeyBenefits .benefitCard button {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  .mainContent .WhatOurClientsSay {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .mainContent .WhatOurClientsSay img {
+    width: 100%;
+    max-width: 320px;
+  }
+  .mainContent .WhatOurClientsSay h1 {
+    font-size: 26px;
+  }
+  .mainContent .WhatOurClientsSay p {
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .mainContent .WhatOurClientsSay .spans-radio {
+    justify-content: center;
+  }
+  .mainContent .WhatOurClientsSay .spans-radio span {
+    width: 10px;
+    height: 10px;
+  }
+}/*# sourceMappingURL=Content.css.map */

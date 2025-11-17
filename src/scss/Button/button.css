@@ -1,0 +1,22 @@
+.custom-button {
+  background-color: #4caf50;
+  border: none;
+  text-wrap: nowrap;
+  color: white;
+  padding: 11px 36px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.custom-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+.custom-button:active {
+  transform: scale(0.97);
+}/*# sourceMappingURL=button.css.map */

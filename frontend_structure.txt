@@ -1,0 +1,21 @@
+PROFESSIONAL FRONTEND (React + Vite) PAPKA TUZILMASI — TXT FORMAT
+
+Quyida faqat FRONTEND uchun zarur bo‘lgan professional papkalar
+keltirilgan.
+
+src/ assets/ images/ - Rasmlar icons/ - SVG ikonalar fonts/ - Fontlar
+components/ - Kichik UI komponentlar (Button, Card, Modal) layouts/ -
+Sahifa tuzilmalari (Header, Footer, Sidebar) pages/ - Sahifalar (Home,
+About, Contact) hooks/ - Custom hooklar (useDarkMode, useAuth)
+context/ - Global state (ThemeContext, AuthContext) utils/ - Yordamchi
+funksiyalar (formatDate, validateEmail) constants/ - O‘zgarmas qiymatlar
+(URLs, ROLES) services/ - Business logic funksiyalar api/ - Backend API
+so‘rovlari (axios/fetch) router/ - React Router konfiguratsiyasi
+styles/ - SCSS yoki CSS global style base/ components/ pages/ themes/
+animations/ - Framer Motion yoki CSS animatsiyalari lib/ - Kutubxona
+konfiguratsiyalari (axios instance, i18n) config/ - Umumiy frontend
+konfiguratsiyasi App.jsx main.jsx index.css
+
+Izoh: Bu tuzilma professional frontend loyihalarida qo’llaniladi.
+Backend, database yoki server bilan bog’liq papkalar kiritilmagan, faqat
+toza frontend uchun zarurlari qoldirildi.

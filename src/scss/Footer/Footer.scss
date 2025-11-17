@@ -1,0 +1,199 @@
+/* Footer.scss */
+.footer {
+	background: #003da5;
+	color: white;
+	padding: 90px 175px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 65px;
+	height: 550px;
+	.newsletter {
+		display: flex;
+		align-items: center;
+		gap: 150px;
+		.left {
+			max-width: 400px;
+			h2 {
+				margin-bottom: 18px;
+				font-weight: 900;
+				font-size: 24px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+			p {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+		}
+		.right {
+			label {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+			.input-box {
+				width: 500px;
+				display: flex;
+				background: white;
+				border-radius: 30px;
+				overflow: hidden;
+				margin-top: 8px;
+				input {
+					padding: 14px 20px;
+					flex: 1;
+					border: none;
+					outline: none;
+					font-size: 16px;
+				}
+				button {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 8px;
+					background: #34c759;
+					color: white;
+					padding: 0 25px;
+					border: none;
+					cursor: pointer;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 100%;
+					letter-spacing: 0%;
+				}
+			}
+		}
+	}
+	.footer-links {
+		display: flex;
+		gap: 110px;
+		margin-top: 40px;
+		.column:nth-child(1) {
+			max-width: 210px;
+			margin-right: 110px;
+		}
+		.column {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			.logo {
+				font-weight: 900;
+				font-size: 24px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+			p {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+			h3 {
+				margin-bottom: 15px;
+				font-weight: 800;
+				font-size: 18px;
+				line-height: 100%;
+				letter-spacing: 0%;
+			}
+			a {
+				color: rgba(255, 255, 255, 0.85);
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 100%;
+				letter-spacing: 0%;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.bottom-text {
+		text-align: center;
+		margin-top: auto;
+		opacity: 0.8;
+	}
+}
+
+@media (max-width: 958px) {
+	.footer {
+		padding: 40px 20px;
+		height: auto;
+		gap: 40px;
+	}
+
+	.footer .newsletter {
+		flex-direction: column;
+		gap: 25px;
+		text-align: center;
+
+		.left h2 {
+			font-size: 20px;
+		}
+
+		.left p {
+			font-size: 16px;
+			line-height: 150%;
+		}
+
+		.right {
+			width: 100%;
+
+			label {
+				font-size: 16px;
+			}
+
+			.input-box {
+				width: 100%;
+				flex-direction: column;
+				background: none;
+				border-radius: 0;
+				gap: 12px;
+
+				input {
+					width: 100%;
+					border-radius: 30px;
+					border: none;
+					padding: 14px 20px;
+				}
+
+				button {
+					width: 100%;
+					padding: 12px 0;
+					border-radius: 30px;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.footer .footer-links {
+		flex-direction: column;
+		gap: 30px;
+		margin-top: 10px;
+		text-align: center;
+
+		.column {
+			margin: 0 auto;
+		}
+
+		.column:nth-child(1) {
+			max-width: 100%;
+			margin-right: 0;
+		}
+
+		.column h3 {
+			font-size: 18px;
+		}
+
+		.column p,
+		.column a {
+			font-size: 15px;
+		}
+	}
+
+	.footer .bottom-text {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+}
